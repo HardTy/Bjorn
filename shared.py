@@ -253,6 +253,10 @@ class SharedData:
                 logger.info("EPD type: epd2in7 screen reversed")
                 self.screen_reversed = False
                 self.web_screen_reversed = False
+            elif self.config["epd_type"] == "epd2in9":
+                logger.info("EPD type: epd2in9 screen reversed")
+                self.screen_reversed = False
+                self.web_screen_reversed = False
             elif self.config["epd_type"] == "epd2in13_V2":
                 logger.info("EPD type: epd2in13_V2 screen reversed")
                 self.screen_reversed = False

@@ -42,14 +42,9 @@ class Display:
 
         # Define frise positions for different display types
         self.frise_positions = {
-            "epd2in7": {
-                "x": 50,
-                "y": 160
-            },
-            "default": {  # Default position for other display types
-                "x": 0,
-                "y": 160
-            }
+            "epd2in7": {"x": 50, "y": 160},
+            "epd2in9": {"x": 3, "y": 160},
+            "default": {"x": 0, "y": 160},  # Default position for other display types
         }
 
         try:
